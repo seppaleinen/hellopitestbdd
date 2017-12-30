@@ -36,7 +36,6 @@ pitest {
 dependencies {
     compile("org.springframework.boot:spring-boot-starter")
     compile("org.springframework.boot:spring-boot-starter-web")
-    compile("org.springframework:spring-tx")
     testCompile("org.springframework.boot:spring-boot-starter-test")
     testCompile("org.springframework.boot:spring-boot-test")
     testCompile("org.pitest:pitest:1.2.0")
